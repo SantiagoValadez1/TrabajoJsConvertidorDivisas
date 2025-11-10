@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Divisas</title>
+</head>
+<body>
+    <h1>Convertidor de Divisas</h1>
+    <form id="formDivisa">
+        <input type="number" id="cantidad" placeholder="Cantidad">
+        <select id="origen">
+            <option value="MXN">mx Peso</option>
+            <option value="USD">us Dolar</option>
+            <option value="EUR">eu Euro</option>
+            <option value="JPY">jp Yen</option>
+        </select>
+        <select id="destino">
+            <option value="USD">us Dolar</option>
+            <option value="MXN">mx Peso</option>
+            <option value="EUR">eu Euro</option>
+            <option value="JPY">jp Yen</option>
+        </select>
+        <input type="submit" value="Convertir" id="btnConvertir">
+    </form>
+
+    <h2>Resultado</h2>
+    <div id="resultado"></div>
+
+    <script src="myScript.js"></script>
+</body>
+</html>
